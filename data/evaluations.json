@@ -1,0 +1,65 @@
+[
+  {
+    "id": "eval_001",
+    "prompt": "Explain the difference between supervised and unsupervised learning in simple terms.",
+    "response_a": "Supervised learning uses labeled examples to learn how to predict an answer. Unsupervised learning works with unlabeled data and tries to discover patterns or groups on its own.",
+    "response_b": "Supervised and unsupervised learning are both artificial intelligence techniques. They process information differently depending on the algorithm.",
+    "scores": {
+      "response_a": {
+        "accuracy": 5,
+        "relevance": 5,
+        "clarity": 5,
+        "instruction_following": 5
+      },
+      "response_b": {
+        "accuracy": 3,
+        "relevance": 4,
+        "clarity": 3,
+        "instruction_following": 3
+      }
+    },
+    "preferred_response": "A"
+  },
+  {
+    "id": "eval_002",
+    "prompt": "Give three practical tips for writing maintainable Python code.",
+    "response_a": "Use meaningful names, keep functions focused on one responsibility, and write automated tests for important behavior.",
+    "response_b": "Python code should always be as short as possible.",
+    "scores": {
+      "response_a": {
+        "accuracy": 5,
+        "relevance": 5,
+        "clarity": 5,
+        "instruction_following": 5
+      },
+      "response_b": {
+        "accuracy": 2,
+        "relevance": 2,
+        "clarity": 4,
+        "instruction_following": 1
+      }
+    },
+    "preferred_response": "A"
+  },
+  {
+    "id": "eval_003",
+    "prompt": "Summarize why automated testing is useful in software development in two sentences.",
+    "response_a": "Automated testing helps detect regressions when software changes. It also provides repeatable checks that can run quickly during development and continuous integration.",
+    "response_b": "Testing is useful because developers need to know whether software works. There are many kinds of tests used by different teams around the world.",
+    "scores": {
+      "response_a": {
+        "accuracy": 5,
+        "relevance": 5,
+        "clarity": 5,
+        "instruction_following": 5
+      },
+      "response_b": {
+        "accuracy": 4,
+        "relevance": 3,
+        "clarity": 4,
+        "instruction_following": 5
+      }
+    },
+    "preferred_response": "A"
+  }
+]
